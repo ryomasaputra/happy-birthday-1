@@ -1,0 +1,41 @@
+html {
+   text-align: center;
+   margin: 0;
+}
+
+body {
+   margin: 0;
+}
+
+section {
+   width: 100%;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+}
+
+#msg {
+   text-align: center;
+   font-size: 12vh;
+   font-family: sans-serif;
+   color: white;
+   display: inline;
+}
+
+#msg::after {
+   content: "I";
+   position: absolute;
+}
+
+.hidden::after {
+   display: none;
+}
+
+#ageTxt {
+   text-align: center;
+   font-size: 7.5vh;
+   font-family: sans-serif;
+   color: white;
+   width: 100%;
+   display: none;
+}
