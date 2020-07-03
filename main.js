@@ -1,4 +1,7 @@
 const MainModule = (function() {
+  
+  // set age to be calculated
+  const AGE = 50
 
   const $page = $('html'),
   $msg = $('#msg'),
@@ -126,7 +129,7 @@ const MainModule = (function() {
         }
         if(passedTime / 120 - 1 === strLength) {
           $ageText.fadeIn(1000, () => {
-            MainModule.setAge(1, 42, 500);
+            MainModule.setAge(1, AGE, 500);
           });
         }
       }
