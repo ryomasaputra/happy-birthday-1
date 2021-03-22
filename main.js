@@ -1,14 +1,14 @@
 const MainModule = (function() {
   
   // set age to be calculated
-  const AGE = 50
+  const AGE = 26
 
   const $page = $('html'),
   $msg = $('#msg'),
   $ageText = $('#ageTxt'),
   $age = $('#age');
   myTime = 10,
-  birthdayText = 'Happy Birthday, dear Father! :D';
+  birthdayText = 'Selamat Ulang Tahun Mbok Tyaa';
 
   let randColor,
   randRed,
